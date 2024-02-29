@@ -28,6 +28,3 @@ else {
 
 minimum weth valid for deposit ; line 36
 uint256 private constant MINIMUM_WETH_LIQUIDITY = 1_000_000_000; // 0,000000001 ether
-
-skill sheet update ?
-kibiki ni tsuite,
