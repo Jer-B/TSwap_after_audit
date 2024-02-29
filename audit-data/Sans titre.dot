@@ -1,0 +1,156 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterTSwapPool" {
+  graph [ label = "TSwapPool", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "TSwapPool.revertIfDeadlinePassed" [ label = "revertIfDeadlinePassed", color = "#1bc6a6", shape =doubleoctagon ];
+  "TSwapPool.revertIfZero" [ label = "revertIfZero", color = "#1bc6a6", shape =doubleoctagon ];
+  "TSwapPool.<Constructor>" [ label = "<Constructor>", color = "#FF9797", fillcolor = "#FF9797" ];
+  "TSwapPool.deposit" [ label = "deposit", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool._addLiquidityMintAndTransfer" [ label = "_addLiquidityMintAndTransfer" ];
+  "TSwapPool.withdraw" [ label = "withdraw", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool.getOutputAmountBasedOnInput" [ label = "getOutputAmountBasedOnInput" ];
+  "TSwapPool.getInputAmountBasedOnOutput" [ label = "getInputAmountBasedOnOutput" ];
+  "TSwapPool.swapExactInput" [ label = "swapExactInput", color = "#FF9797", fillcolor = "#FF9797" ];
+  "TSwapPool.swapExactOutput" [ label = "swapExactOutput", color = "#FF9797", fillcolor = "#FF9797" ];
+  "TSwapPool.sellPoolTokens" [ label = "sellPoolTokens", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool._swap" [ label = "_swap" ];
+  "TSwapPool._isUnknown" [ label = "_isUnknown" ];
+  "TSwapPool.getPoolTokensToDepositBasedOnWeth" [ label = "getPoolTokensToDepositBasedOnWeth" ];
+  "TSwapPool.totalLiquidityTokenSupply" [ label = "totalLiquidityTokenSupply" ];
+  "TSwapPool.getPoolToken" [ label = "getPoolToken", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool.getWeth" [ label = "getWeth", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool.getMinimumWethDepositAmount" [ label = "getMinimumWethDepositAmount", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool.getPriceOfOneWethInPoolTokens" [ label = "getPriceOfOneWethInPoolTokens", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool.getPriceOfOnePoolTokenInWeth" [ label = "getPriceOfOnePoolTokenInWeth", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "TSwapPool.TSwapPool__DeadlineHasPassed" [ label = "TSwapPool__DeadlineHasPassed" ];
+  "TSwapPool.TSwapPool__MustBeMoreThanZero" [ label = "TSwapPool__MustBeMoreThanZero" ];
+  "TSwapPool.IERC20" [ label = "IERC20" ];
+  "TSwapPool.TSwapPool__WethDepositAmountTooLow" [ label = "TSwapPool__WethDepositAmountTooLow" ];
+  "TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh" [ label = "TSwapPool__MaxPoolTokenDepositTooHigh" ];
+  "TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow" [ label = "TSwapPool__MinLiquidityTokensToMintTooLow" ];
+  "TSwapPool._mint" [ label = "_mint" ];
+  "TSwapPool.TSwapPool__OutputTooLow" [ label = "TSwapPool__OutputTooLow" ];
+  "TSwapPool._burn" [ label = "_burn" ];
+  "TSwapPool.TSwapPool__InvalidToken" [ label = "TSwapPool__InvalidToken" ];
+  "TSwapPool.totalSupply" [ label = "totalSupply" ];
+}
+
+subgraph "clusterIERC20" {
+  graph [ label = "IERC20", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "IERC20.balanceOf" [ label = "balanceOf" ];
+  "IERC20.safeTransferFrom" [ label = "safeTransferFrom" ];
+  "IERC20.safeTransfer" [ label = "safeTransfer" ];
+}
+
+  "TSwapPool.revertIfDeadlinePassed";
+  "TSwapPool.TSwapPool__DeadlineHasPassed";
+  "TSwapPool.revertIfZero";
+  "TSwapPool.TSwapPool__MustBeMoreThanZero";
+  "TSwapPool.<Constructor>";
+  "TSwapPool.IERC20";
+  "TSwapPool.deposit";
+  "TSwapPool.TSwapPool__WethDepositAmountTooLow";
+  "TSwapPool.totalLiquidityTokenSupply";
+  "IERC20.balanceOf";
+  "TSwapPool.getPoolTokensToDepositBasedOnWeth";
+  "TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh";
+  "TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow";
+  "TSwapPool._addLiquidityMintAndTransfer";
+  "TSwapPool._mint";
+  "IERC20.safeTransferFrom";
+  "TSwapPool.withdraw";
+  "TSwapPool.TSwapPool__OutputTooLow";
+  "TSwapPool._burn";
+  "IERC20.safeTransfer";
+  "TSwapPool.swapExactInput";
+  "TSwapPool.getOutputAmountBasedOnInput";
+  "TSwapPool._swap";
+  "TSwapPool.swapExactOutput";
+  "TSwapPool.getInputAmountBasedOnOutput";
+  "TSwapPool.sellPoolTokens";
+  "TSwapPool._isUnknown";
+  "TSwapPool.TSwapPool__InvalidToken";
+  "TSwapPool.totalSupply";
+  "TSwapPool.getPriceOfOneWethInPoolTokens";
+  "TSwapPool.getPriceOfOnePoolTokenInWeth";
+  "TSwapPool.revertIfDeadlinePassed" -> "TSwapPool.TSwapPool__DeadlineHasPassed" [ color = "#1bc6a6" ];
+  "TSwapPool.revertIfZero" -> "TSwapPool.TSwapPool__MustBeMoreThanZero" [ color = "#1bc6a6" ];
+  "TSwapPool.<Constructor>" -> "TSwapPool.IERC20" [ color = "#1bc6a6" ];
+  "TSwapPool.<Constructor>" -> "TSwapPool.IERC20" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool.TSwapPool__WethDepositAmountTooLow" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool.totalLiquidityTokenSupply" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.deposit" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.deposit" -> "TSwapPool.getPoolTokensToDepositBasedOnWeth" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool.totalLiquidityTokenSupply" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool._addLiquidityMintAndTransfer" [ color = "#1bc6a6" ];
+  "TSwapPool.deposit" -> "TSwapPool._addLiquidityMintAndTransfer" [ color = "#1bc6a6" ];
+  "TSwapPool._addLiquidityMintAndTransfer" -> "TSwapPool._mint" [ color = "#1bc6a6" ];
+  "TSwapPool._addLiquidityMintAndTransfer" -> "IERC20.safeTransferFrom" [ color = "white" ];
+  "TSwapPool._addLiquidityMintAndTransfer" -> "IERC20.safeTransferFrom" [ color = "white" ];
+  "TSwapPool.withdraw" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.withdraw" -> "TSwapPool.totalLiquidityTokenSupply" [ color = "#1bc6a6" ];
+  "TSwapPool.withdraw" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.withdraw" -> "TSwapPool.totalLiquidityTokenSupply" [ color = "#1bc6a6" ];
+  "TSwapPool.withdraw" -> "TSwapPool.TSwapPool__OutputTooLow" [ color = "#1bc6a6" ];
+  "TSwapPool.withdraw" -> "TSwapPool.TSwapPool__OutputTooLow" [ color = "#1bc6a6" ];
+  "TSwapPool.withdraw" -> "TSwapPool._burn" [ color = "#1bc6a6" ];
+  "TSwapPool.withdraw" -> "IERC20.safeTransfer" [ color = "white" ];
+  "TSwapPool.withdraw" -> "IERC20.safeTransfer" [ color = "white" ];
+  "TSwapPool.swapExactInput" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.swapExactInput" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.swapExactInput" -> "TSwapPool.getOutputAmountBasedOnInput" [ color = "#1bc6a6" ];
+  "TSwapPool.swapExactInput" -> "TSwapPool.TSwapPool__OutputTooLow" [ color = "#1bc6a6" ];
+  "TSwapPool.swapExactInput" -> "TSwapPool._swap" [ color = "#1bc6a6" ];
+  "TSwapPool.swapExactOutput" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.swapExactOutput" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.swapExactOutput" -> "TSwapPool.getInputAmountBasedOnOutput" [ color = "#1bc6a6" ];
+  "TSwapPool.swapExactOutput" -> "TSwapPool._swap" [ color = "#1bc6a6" ];
+  "TSwapPool.sellPoolTokens" -> "TSwapPool.swapExactOutput" [ color = "#1bc6a6" ];
+  "TSwapPool._swap" -> "TSwapPool._isUnknown" [ color = "#1bc6a6" ];
+  "TSwapPool._swap" -> "TSwapPool._isUnknown" [ color = "#1bc6a6" ];
+  "TSwapPool._swap" -> "TSwapPool.TSwapPool__InvalidToken" [ color = "#1bc6a6" ];
+  "TSwapPool._swap" -> "IERC20.safeTransfer" [ color = "white" ];
+  "TSwapPool._swap" -> "IERC20.safeTransferFrom" [ color = "white" ];
+  "TSwapPool._swap" -> "IERC20.safeTransfer" [ color = "white" ];
+  "TSwapPool.getPoolTokensToDepositBasedOnWeth" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.getPoolTokensToDepositBasedOnWeth" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.totalLiquidityTokenSupply" -> "TSwapPool.totalSupply" [ color = "#1bc6a6" ];
+  "TSwapPool.getPriceOfOneWethInPoolTokens" -> "TSwapPool.getOutputAmountBasedOnInput" [ color = "#1bc6a6" ];
+  "TSwapPool.getPriceOfOneWethInPoolTokens" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.getPriceOfOneWethInPoolTokens" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.getPriceOfOnePoolTokenInWeth" -> "TSwapPool.getOutputAmountBasedOnInput" [ color = "#1bc6a6" ];
+  "TSwapPool.getPriceOfOnePoolTokenInWeth" -> "IERC20.balanceOf" [ color = "white" ];
+  "TSwapPool.getPriceOfOnePoolTokenInWeth" -> "IERC20.balanceOf" [ color = "white" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}

@@ -1,0 +1,565 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400pt" height="1175pt" viewBox="0.00 0.00 1400.39 1175.44">
+<g id="graph0" class="graph" transform="translate(58.395404610806736,1204.3939585786877) scale(1.2872987658837227)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-1171.44 1396.39,-1171.44 1396.39,4 -4,4"/>
+<g id="clust1" class="cluster" data-name="clusterTSwapPool">
+
+<path fill="#445773" stroke="#445773" d="M20,-405.44C20,-405.44 1372.39,-405.44 1372.39,-405.44 1378.39,-405.44 1384.39,-411.44 1384.39,-417.44 1384.39,-417.44 1384.39,-1010.44 1384.39,-1010.44 1384.39,-1016.44 1378.39,-1022.44 1372.39,-1022.44 1372.39,-1022.44 20,-1022.44 20,-1022.44 14,-1022.44 8,-1016.44 8,-1010.44 8,-1010.44 8,-417.44 8,-417.44 8,-411.44 14,-405.44 20,-405.44" style=""/>
+<text text-anchor="middle" x="696.19" y="-1005.84" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TSwapPool</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterIERC20">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1182.39,-212.44C1182.39,-212.44 1334.82,-212.44 1334.82,-212.44 1340.82,-212.44 1346.82,-218.44 1346.82,-224.44 1346.82,-224.44 1346.82,-385.44 1346.82,-385.44 1346.82,-391.44 1340.82,-397.44 1334.82,-397.44 1334.82,-397.44 1182.39,-397.44 1182.39,-397.44 1176.39,-397.44 1170.39,-391.44 1170.39,-385.44 1170.39,-385.44 1170.39,-224.44 1170.39,-224.44 1170.39,-218.44 1176.39,-212.44 1182.39,-212.44" style=""/>
+<text text-anchor="middle" x="1258.6" y="-380.84" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="87.07,-1030.44 87.07,-1159.44 530.48,-1159.44 530.48,-1030.44 87.07,-1030.44" style=""/>
+<text text-anchor="middle" x="308.78" y="-1142.84" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TSwapPool.revertIfDeadlinePassed -->
+<g id="node1" class="node" pointer-events="visible" data-name="TSwapPool.revertIfDeadlinePassed">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="269.49,-954.98 269.49,-969.9 205.4,-980.44 114.75,-980.44 50.65,-969.9 50.65,-954.98 114.75,-944.44 205.4,-944.44 269.49,-954.98"/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="273.49,-951.59 273.49,-973.29 205.72,-984.44 114.42,-984.44 46.66,-973.29 46.66,-951.59 114.42,-940.44 205.72,-940.44 273.49,-951.59"/>
+<text text-anchor="middle" x="160.07" y="-958.24" font-family="Times,serif" font-size="14.00">revertIfDeadlinePassed</text>
+</g>
+<!-- TSwapPool.TSwapPool__DeadlineHasPassed --><g id="edge1" class="edge" data-name="TSwapPool.revertIfDeadlinePassed-&gt;TSwapPool.TSwapPool__DeadlineHasPassed" data-comment="TSwapPool.TSwapPool__DeadlineHasPassed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M274.88,-962.44C295.7,-962.44 317.74,-962.44 339.52,-962.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="339.27,-965.94 349.27,-962.44 339.27,-958.94 339.27,-965.94"/>
+</g>
+<g id="node21" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__DeadlineHasPassed">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="495.48" cy="-962.44" rx="141.85" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-958.24" font-family="Times,serif" font-size="14.00">TSwapPool__DeadlineHasPassed</text>
+</g>
+<!-- TSwapPool.revertIfDeadlinePassed&#45;&gt;TSwapPool.TSwapPool__DeadlineHasPassed -->
+
+<!-- TSwapPool.revertIfZero -->
+<g id="node2" class="node" pointer-events="visible" data-name="TSwapPool.revertIfZero">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="223.09,-883.98 223.09,-898.9 186.18,-909.44 133.97,-909.44 97.06,-898.9 97.06,-883.98 133.97,-873.44 186.18,-873.44 223.09,-883.98"/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="227.09,-880.97 227.09,-901.91 186.74,-913.44 133.41,-913.44 93.06,-901.91 93.06,-880.97 133.41,-869.44 186.74,-869.44 227.09,-880.97"/>
+<text text-anchor="middle" x="160.07" y="-887.24" font-family="Times,serif" font-size="14.00">revertIfZero</text>
+</g>
+<!-- TSwapPool.TSwapPool__MustBeMoreThanZero --><g id="edge2" class="edge" data-name="TSwapPool.revertIfZero-&gt;TSwapPool.TSwapPool__MustBeMoreThanZero" data-comment="TSwapPool.TSwapPool__MustBeMoreThanZero">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M228.54,-891.44C257.01,-891.44 291.56,-891.44 326.19,-891.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="325.92,-894.94 335.92,-891.44 325.92,-887.94 325.92,-894.94"/>
+</g>
+<g id="node22" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__MustBeMoreThanZero">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="495.48" cy="-891.44" rx="155.17" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-887.24" font-family="Times,serif" font-size="14.00">TSwapPool__MustBeMoreThanZero</text>
+</g>
+<!-- TSwapPool.revertIfZero&#45;&gt;TSwapPool.TSwapPool__MustBeMoreThanZero -->
+
+<!-- TSwapPool.&lt;Constructor&gt; -->
+<g id="node3" class="node" pointer-events="visible" data-name="TSwapPool.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="160.07" cy="-814.44" rx="67.55" ry="18"/>
+<text text-anchor="middle" x="160.07" y="-810.24" font-family="Times,serif" font-size="14.00">&lt;Constructor&gt;</text>
+</g>
+<!-- TSwapPool.IERC20 --><g id="edge3" class="edge" data-name="TSwapPool.&lt;Constructor&gt;-&gt;TSwapPool.IERC20" data-comment="TSwapPool.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M226.15,-808.96C288.52,-807.16 381.58,-807.27 440.1,-809.3"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="439.61,-812.78 449.73,-809.67 439.88,-805.78 439.61,-812.78"/>
+</g>
+<g id="node23" class="node" pointer-events="visible" data-name="TSwapPool.IERC20">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="495.48" cy="-814.44" rx="42.88" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-810.24" font-family="Times,serif" font-size="14.00">IERC20</text>
+</g>
+<!-- TSwapPool.&lt;Constructor&gt;&#45;&gt;TSwapPool.IERC20 -->
+
+<!-- TSwapPool.&lt;Constructor&gt;&#45;&gt;TSwapPool.IERC20 -->
+<g id="edge4" class="edge" data-name="TSwapPool.&lt;Constructor&gt;-&gt;TSwapPool.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M226.15,-819.92C288.52,-821.72 381.58,-821.61 440.1,-819.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="439.88,-823.09 449.73,-819.21 439.61,-816.1 439.88,-823.09"/>
+</g>
+<!-- TSwapPool.deposit -->
+<g id="node4" class="node" pointer-events="visible" data-name="TSwapPool.deposit">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="495.48" cy="-755.44" rx="38.86" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-751.24" font-family="Times,serif" font-size="14.00">deposit</text>
+</g>
+<!-- TSwapPool._addLiquidityMintAndTransfer --><g id="edge13" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool._addLiquidityMintAndTransfer" data-comment="TSwapPool._addLiquidityMintAndTransfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M531.42,-746.59C565.83,-744.3 617.89,-749.59 650.82,-778.44 687.29,-810.4 649.17,-850.88 686.82,-881.44 705.21,-896.37 727.69,-905.45 750.99,-910.85"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="750.15,-914.25 760.64,-912.81 751.54,-907.39 750.15,-914.25"/>
+</g>
+<g id="node5" class="node" pointer-events="visible" data-name="TSwapPool._addLiquidityMintAndTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-917.44" rx="133.74" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-913.24" font-family="Times,serif" font-size="14.00">_addLiquidityMintAndTransfer</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool._addLiquidityMintAndTransfer -->
+
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool._addLiquidityMintAndTransfer -->
+<g id="edge14" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool._addLiquidityMintAndTransfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M534.37,-760.38C568.75,-762.62 618.81,-768.4 650.82,-796.44 687.29,-828.4 649.17,-868.88 686.82,-899.44 720.44,-926.73 767.7,-934.49 808.68,-934.08" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="808.55,-937.58 818.44,-933.78 808.33,-930.59 808.55,-937.58"/>
+</g>
+<!-- TSwapPool.getPoolTokensToDepositBasedOnWeth --><g id="edge9" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool.getPoolTokensToDepositBasedOnWeth" data-comment="TSwapPool.getPoolTokensToDepositBasedOnWeth">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M535.53,-755.91C568.6,-757.99 616.05,-765.11 650.82,-787.44 673.56,-802.04 663.54,-822.71 686.82,-836.44 698.76,-843.49 711.76,-849.04 725.23,-853.38"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="724.23,-856.73 734.81,-856.18 726.19,-850.01 724.23,-856.73"/>
+</g>
+<g id="node14" class="node" pointer-events="visible" data-name="TSwapPool.getPoolTokensToDepositBasedOnWeth">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-863.44" rx="166.11" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-859.24" font-family="Times,serif" font-size="14.00">getPoolTokensToDepositBasedOnWeth</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool.getPoolTokensToDepositBasedOnWeth -->
+
+<!-- TSwapPool.totalLiquidityTokenSupply --><g id="edge6" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool.totalLiquidityTokenSupply" data-comment="TSwapPool.totalLiquidityTokenSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M528.46,-744.35C566.26,-736.31 631.09,-727.01 686.82,-719.44 713.76,-715.78 742.68,-711.96 770.14,-708.6"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="770.54,-712.08 780.05,-707.41 769.71,-705.13 770.54,-712.08"/>
+</g>
+<g id="node15" class="node" pointer-events="visible" data-name="TSwapPool.totalLiquidityTokenSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-701.44" rx="116.37" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-697.24" font-family="Times,serif" font-size="14.00">totalLiquidityTokenSupply</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool.totalLiquidityTokenSupply -->
+
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool.totalLiquidityTokenSupply -->
+<g id="edge11" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool.totalLiquidityTokenSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M535.47,-756.64C573.93,-753.21 634.4,-744.56 686.82,-737.44 729.61,-731.63 777.39,-725.41 816.36,-719.51" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="816.87,-722.97 826.22,-717.98 815.8,-716.05 816.87,-722.97"/>
+</g>
+<!-- TSwapPool.TSwapPool__WethDepositAmountTooLow --><g id="edge5" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool.TSwapPool__WethDepositAmountTooLow" data-comment="TSwapPool.TSwapPool__WethDepositAmountTooLow">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M535.11,-752.6C570,-752.26 620.42,-757.67 650.82,-787.44 701.97,-837.53 633.82,-896.31 686.82,-944.44 693.6,-950.6 701.05,-955.8 708.98,-960.19"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="707.26,-963.24 717.78,-964.52 710.35,-956.96 707.26,-963.24"/>
+</g>
+<g id="node24" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__WethDepositAmountTooLow">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-971.44" rx="181.75" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-967.24" font-family="Times,serif" font-size="14.00">TSwapPool__WethDepositAmountTooLow</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool.TSwapPool__WethDepositAmountTooLow -->
+
+<!-- TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh --><g id="edge10" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh" data-comment="TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M535.77,-755.44C572.96,-755.44 631.82,-755.44 691.2,-755.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="690.85,-758.94 700.85,-755.44 690.85,-751.94 690.85,-758.94"/>
+</g>
+<g id="node25" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-755.44" rx="190.51" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-751.24" font-family="Times,serif" font-size="14.00">TSwapPool__MaxPoolTokenDepositTooHigh</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool.TSwapPool__MaxPoolTokenDepositTooHigh -->
+
+<!-- TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow --><g id="edge12" class="edge" data-name="TSwapPool.deposit-&gt;TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow" data-comment="TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M534.02,-760.9C572.4,-766.45 633.74,-775.23 686.82,-782.44 710.14,-785.61 734.94,-788.9 758.99,-792.04"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="758.5,-795.51 768.87,-793.33 759.41,-788.57 758.5,-795.51"/>
+</g>
+<g id="node26" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-809.44" rx="209" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-805.24" font-family="Times,serif" font-size="14.00">TSwapPool__MinLiquidityTokensToMintTooLow</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;TSwapPool.TSwapPool__MinLiquidityTokensToMintTooLow -->
+
+<!-- IERC20.balanceOf --><g id="edge7" class="edge" data-name="TSwapPool.deposit-&gt;IERC20.balanceOf" data-comment="IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M525.49,-742.62C561.23,-730.13 620.91,-708.22 650.82,-665.44 720.17,-566.21 606.72,-486.21 686.82,-395.44 813.92,-251.4 933.35,-372.05 1104.82,-285.44 1123.15,-276.18 1122.34,-265.43 1140.82,-256.44 1157.23,-248.46 1176.11,-242.77 1193.83,-239.12"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1194.29,-242.59 1203.5,-237.35 1193.04,-235.7 1194.29,-242.59"/>
+</g>
+<g id="node32" class="node" pointer-events="visible" data-name="IERC20.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-238.44" rx="50.92" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-234.24" font-family="Times,serif" font-size="14.00">balanceOf</text>
+</g>
+<!-- TSwapPool.deposit&#45;&gt;IERC20.balanceOf -->
+
+<!-- TSwapPool.deposit&#45;&gt;IERC20.balanceOf -->
+<g id="edge8" class="edge" data-name="TSwapPool.deposit-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M535.32,-752.95C571.39,-744.16 623.51,-722.5 650.82,-683.44 720.17,-584.21 606.72,-504.21 686.82,-413.44 813.92,-269.4 933.35,-390.05 1104.82,-303.44 1123.15,-294.18 1122.34,-283.43 1140.82,-274.44 1160.96,-264.64 1184.82,-258.31 1205.7,-253.59" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1206.28,-257.05 1215.3,-251.49 1204.78,-250.21 1206.28,-257.05"/>
+</g>
+<!-- TSwapPool._mint --><g id="edge15" class="edge" data-name="TSwapPool._addLiquidityMintAndTransfer-&gt;TSwapPool._mint" data-comment="TSwapPool._mint">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1030.9,-917.44C1094.07,-917.44 1165.37,-917.44 1210.85,-917.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1210.79,-920.94 1220.79,-917.44 1210.79,-913.94 1210.79,-920.94"/>
+</g>
+<g id="node27" class="node" pointer-events="visible" data-name="TSwapPool._mint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-917.44" rx="33.64" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-913.24" font-family="Times,serif" font-size="14.00">_mint</text>
+</g>
+<!-- TSwapPool._addLiquidityMintAndTransfer&#45;&gt;TSwapPool._mint -->
+
+<!-- IERC20.safeTransferFrom --><g id="edge16" class="edge" data-name="TSwapPool._addLiquidityMintAndTransfer-&gt;IERC20.safeTransferFrom" data-comment="IERC20.safeTransferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1030.88,-917.52C1058.71,-912.5 1085.42,-901.94 1104.82,-881.44 1179.69,-802.28 1079.1,-482.24 1140.82,-392.44 1149.83,-379.32 1162.83,-369.25 1176.91,-361.74"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1178.14,-365.03 1185.65,-357.55 1175.12,-358.71 1178.14,-365.03"/>
+</g>
+<g id="node33" class="node" pointer-events="visible" data-name="IERC20.safeTransferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-346.44" rx="80.43" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-342.24" font-family="Times,serif" font-size="14.00">safeTransferFrom</text>
+</g>
+<!-- TSwapPool._addLiquidityMintAndTransfer&#45;&gt;IERC20.safeTransferFrom -->
+
+<!-- TSwapPool._addLiquidityMintAndTransfer&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge17" class="edge" data-name="TSwapPool._addLiquidityMintAndTransfer-&gt;IERC20.safeTransferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M954.49,-934.92C1001.89,-941.59 1067.16,-939.25 1104.82,-899.44 1179.69,-820.28 1079.1,-500.24 1140.82,-410.44 1155.23,-389.46 1179.85,-376.27 1202.77,-367.3" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1203.87,-370.62 1212.06,-363.9 1201.46,-364.05 1203.87,-370.62"/>
+</g>
+<!-- TSwapPool.withdraw --><g id="edge19" class="edge" data-name="TSwapPool.withdraw-&gt;TSwapPool.totalLiquidityTokenSupply" data-comment="TSwapPool.withdraw">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M544.18,-647.07C582.66,-650.91 638.2,-658.84 686.82,-665.44 729.61,-671.25 777.39,-677.47 816.36,-683.37"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="815.8,-686.83 826.22,-684.9 816.87,-679.91 815.8,-686.83"/>
+</g>
+<g id="node6" class="node" pointer-events="visible" data-name="TSwapPool.withdraw">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="495.48" cy="-647.44" rx="47.52" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-643.24" font-family="Times,serif" font-size="14.00">withdraw</text>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;TSwapPool.totalLiquidityTokenSupply -->
+<!-- TSwapPool.TSwapPool__OutputTooLow -->
+<!-- TSwapPool.withdraw&#45;&gt;TSwapPool.totalLiquidityTokenSupply -->
+<!-- TSwapPool.withdraw&#45;&gt;TSwapPool.TSwapPool__OutputTooLow --><g id="edge21" class="edge" data-name="TSwapPool.withdraw-&gt;TSwapPool.totalLiquidityTokenSupply" data-comment="TSwapPool.withdraw-&gt;TSwapPool.TSwapPool__OutputTooLow">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M533.67,-659.61C572.02,-667.39 633.57,-676.21 686.82,-683.44 713.76,-687.1 742.68,-690.92 770.14,-694.28" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="769.71,-697.75 780.05,-695.47 770.54,-690.8 769.71,-697.75"/>
+</g>
+<g id="node28" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__OutputTooLow" data-comment="TSwapPool.withdraw-&gt;TSwapPool.TSwapPool__OutputTooLow">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-593.44" rx="125.69" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-589.24" font-family="Times,serif" font-size="14.00">TSwapPool__OutputTooLow</text>
+</g><g id="edge22" class="edge" data-name="TSwapPool.withdraw-&gt;TSwapPool.TSwapPool__OutputTooLow">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M533.67,-635.27C572.02,-627.49 633.57,-618.67 686.82,-611.44 711.51,-608.09 737.87,-604.59 763.23,-601.45"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="763.48,-604.95 772.99,-600.26 762.63,-598 763.48,-604.95"/>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;TSwapPool.TSwapPool__OutputTooLow -->
+
+<!-- TSwapPool._burn -->
+<g id="node29" class="node" pointer-events="visible" data-name="TSwapPool._burn">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-647.44" rx="33.63" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-643.24" font-family="Times,serif" font-size="14.00">_burn</text>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;TSwapPool._burn --><g id="edge23" class="edge" data-name="TSwapPool.withdraw-&gt;TSwapPool.TSwapPool__OutputTooLow" data-comment="TSwapPool.withdraw-&gt;TSwapPool._burn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M544.18,-647.81C582.66,-643.96 638.2,-636.04 686.82,-629.44 728.96,-623.72 775.94,-617.59 814.58,-611.77" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="815,-615.25 824.35,-610.27 813.94,-608.33 815,-615.25"/>
+</g>
+<g id="edge24" class="edge" data-name="TSwapPool.withdraw-&gt;TSwapPool._burn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M544.14,-647.44C620.99,-647.44 771.39,-647.44 847.82,-647.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="847.73,-650.94 857.73,-647.44 847.73,-643.94 847.73,-650.94"/>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;IERC20.balanceOf -->
+<g id="edge18" class="edge" data-name="TSwapPool.withdraw-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M544.21,-645.44C578.82,-644.92 624.08,-639.88 650.82,-611.44 749.16,-506.85 585.04,-391.69 686.82,-290.44 722.27,-255.17 1053.06,-237.71 1194.24,-236.15"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1193.89,-239.65 1203.86,-236.07 1193.84,-232.65 1193.89,-239.65"/>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;IERC20.balanceOf -->
+
+<!-- IERC20.safeTransfer -->
+<g id="node34" class="node" pointer-events="visible" data-name="IERC20.safeTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-292.44" rx="59.08" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-288.24" font-family="Times,serif" font-size="14.00">safeTransfer</text>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;IERC20.safeTransfer --><g id="edge20" class="edge" data-name="TSwapPool.withdraw-&gt;IERC20.balanceOf" data-comment="TSwapPool.withdraw-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M534.41,-659.29C569.82,-663.68 621.47,-660.65 650.82,-629.44 749.16,-524.85 585.04,-409.69 686.82,-308.44 722.41,-273.03 1055.6,-255.57 1195.85,-245.35" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1196.07,-248.85 1205.78,-244.61 1195.55,-241.87 1196.07,-248.85"/>
+</g>
+<g id="edge25" class="edge" data-name="TSwapPool.withdraw-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M543.78,-645.02C578.16,-644.28 623.33,-639.15 650.82,-611.44 719.36,-542.34 618.99,-465.24 686.82,-395.44 755.08,-325.19 1047.65,-297.1 1185.38,-291.52"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1185.32,-295.03 1195.18,-291.16 1185.06,-288.03 1185.32,-295.03"/>
+</g>
+<!-- TSwapPool.withdraw&#45;&gt;IERC20.safeTransfer -->
+
+<!-- TSwapPool.getOutputAmountBasedOnInput -->
+<g id="node7" class="node" pointer-events="visible" data-name="TSwapPool.getOutputAmountBasedOnInput">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-431.44" rx="137.2" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-427.24" font-family="Times,serif" font-size="14.00">getOutputAmountBasedOnInput</text>
+</g>
+<!-- TSwapPool.getInputAmountBasedOnOutput --><g id="edge26" class="edge" data-name="TSwapPool.withdraw-&gt;IERC20.safeTransfer" data-comment="TSwapPool.getInputAmountBasedOnOutput">
+
+<path fill="none" stroke="white" stroke-width="2" d="M534.72,-659.01C569.83,-663.02 620.84,-659.66 650.82,-629.44 719.36,-560.34 618.99,-483.24 686.82,-413.44 755.93,-342.32 1054.99,-314.4 1190.46,-301.19" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1190.42,-304.71 1200.03,-300.26 1189.74,-297.75 1190.42,-304.71"/>
+</g>
+<g id="node8" class="node" pointer-events="visible" data-name="TSwapPool.getInputAmountBasedOnOutput">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-485.44" rx="137.2" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-481.24" font-family="Times,serif" font-size="14.00">getInputAmountBasedOnOutput</text>
+</g>
+<!-- TSwapPool.swapExactInput -->
+<g id="node9" class="node" pointer-events="visible" data-name="TSwapPool.swapExactInput">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="495.48" cy="-593.44" rx="73" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-589.24" font-family="Times,serif" font-size="14.00">swapExactInput</text>
+</g>
+<!-- TSwapPool.swapExactInput&#45;&gt;TSwapPool.getOutputAmountBasedOnInput -->
+<g id="edge29" class="edge" data-name="TSwapPool.swapExactInput-&gt;TSwapPool.getOutputAmountBasedOnInput">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M569.27,-596.03C597.61,-593.41 628.56,-585.61 650.82,-566.44 689.15,-533.42 647.76,-490.61 686.82,-458.44 704.48,-443.89 726.02,-434.85 748.45,-429.5"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="748.94,-432.98 758.02,-427.52 747.52,-426.12 748.94,-432.98"/>
+</g>
+<!-- TSwapPool._swap -->
+<g id="node12" class="node" pointer-events="visible" data-name="TSwapPool._swap">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="895.82" cy="-539.44" rx="35.92" ry="18"/>
+<text text-anchor="middle" x="895.82" y="-535.24" font-family="Times,serif" font-size="14.00">_swap</text>
+</g>
+<!-- TSwapPool.swapExactInput&#45;&gt;TSwapPool._swap -->
+<g id="edge31" class="edge" data-name="TSwapPool.swapExactInput-&gt;TSwapPool._swap">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M560.77,-584.13C597.65,-578.83 644.82,-572.14 686.82,-566.44 741.63,-558.99 804.64,-550.88 846.81,-545.51"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="846.99,-549.01 856.47,-544.28 846.1,-542.07 846.99,-549.01"/>
+</g>
+<!-- TSwapPool.swapExactInput&#45;&gt;TSwapPool.TSwapPool__OutputTooLow -->
+<g id="edge30" class="edge" data-name="TSwapPool.swapExactInput-&gt;TSwapPool.TSwapPool__OutputTooLow">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M569.54,-593.44C621.65,-593.44 693.33,-593.44 756.14,-593.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="755.96,-596.94 765.96,-593.44 755.96,-589.94 755.96,-596.94"/>
+</g>
+<!-- TSwapPool.swapExactInput&#45;&gt;IERC20.balanceOf -->
+<g id="edge27" class="edge" data-name="TSwapPool.swapExactInput-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M568.64,-590.22C598.1,-587.52 630.06,-579.55 650.82,-557.44 700.56,-504.47 632.81,-281.05 686.82,-232.44 761.32,-165.38 1074.52,-202.43 1202.63,-225.37"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1201.71,-228.76 1212.18,-227.13 1202.98,-221.88 1201.71,-228.76"/>
+</g>
+<!-- TSwapPool.swapExactInput&#45;&gt;IERC20.balanceOf -->
+
+<!-- TSwapPool.swapExactOutput -->
+<g id="node10" class="node" pointer-events="visible" data-name="TSwapPool.swapExactOutput">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="495.48" cy="-539.44" rx="79.88" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-535.24" font-family="Times,serif" font-size="14.00">swapExactOutput</text>
+</g>
+<!-- TSwapPool.swapExactOutput&#45;&gt;TSwapPool.getInputAmountBasedOnOutput --><g id="edge28" class="edge" data-name="TSwapPool.swapExactInput-&gt;IERC20.balanceOf" data-comment="TSwapPool.swapExactOutput-&gt;TSwapPool.getInputAmountBasedOnOutput">
+
+<path fill="none" stroke="white" stroke-width="2" d="M550.11,-606.65C583.83,-608.3 625.59,-602.31 650.82,-575.44 700.56,-522.47 632.81,-299.05 686.82,-250.44 759.79,-184.76 1061.77,-218.96 1194.51,-233.59" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1193.87,-237.04 1204.19,-234.66 1194.63,-230.09 1193.87,-237.04"/>
+</g>
+<g id="edge34" class="edge" data-name="TSwapPool.swapExactOutput-&gt;TSwapPool.getInputAmountBasedOnOutput">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M565.17,-529.5C601.35,-524.31 646.47,-517.92 686.82,-512.44 716.97,-508.34 749.6,-504.05 779.87,-500.11"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="780.22,-503.6 789.69,-498.84 779.32,-496.65 780.22,-503.6"/>
+</g>
+<!-- TSwapPool.swapExactOutput&#45;&gt;TSwapPool._swap -->
+<g id="edge35" class="edge" data-name="TSwapPool.swapExactOutput-&gt;TSwapPool._swap">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M576.61,-539.44C657.12,-539.44 778.62,-539.44 845.8,-539.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="845.46,-542.94 855.46,-539.44 845.46,-535.94 845.46,-542.94"/>
+</g>
+<!-- TSwapPool.swapExactOutput&#45;&gt;IERC20.balanceOf -->
+<g id="edge32" class="edge" data-name="TSwapPool.swapExactOutput-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M575.03,-535.56C602.64,-532.31 631.55,-523.97 650.82,-503.44 700.84,-450.13 632.37,-225.22 686.82,-176.44 756,-114.46 1013.22,-161 1104.82,-176.44 1146.73,-183.5 1192.51,-200.75 1222.92,-215.53"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1220.97,-218.46 1231.47,-219.88 1224.15,-212.22 1220.97,-218.46"/>
+</g>
+<!-- TSwapPool.swapExactOutput&#45;&gt;IERC20.balanceOf -->
+
+<!-- TSwapPool.sellPoolTokens -->
+<g id="node11" class="node" pointer-events="visible" data-name="TSwapPool.sellPoolTokens">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="160.07" cy="-593.44" rx="70.67" ry="18"/>
+<text text-anchor="middle" x="160.07" y="-589.24" font-family="Times,serif" font-size="14.00">sellPoolTokens</text>
+</g>
+<!-- TSwapPool.sellPoolTokens&#45;&gt;TSwapPool.swapExactOutput --><g id="edge33" class="edge" data-name="TSwapPool.swapExactOutput-&gt;IERC20.balanceOf" data-comment="TSwapPool.sellPoolTokens-&gt;TSwapPool.swapExactOutput">
+
+<path fill="none" stroke="white" stroke-width="2" d="M554.64,-552.83C587.5,-553.73 626.71,-547.13 650.82,-521.44 700.84,-468.13 632.37,-243.22 686.82,-194.44 756,-132.46 1013.22,-179 1104.82,-194.44 1138.58,-200.13 1174.85,-212.43 1203.57,-222.77" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1202.35,-226.05 1212.95,-226.17 1204.74,-219.47 1202.35,-226.05"/>
+</g>
+<g id="edge36" class="edge" data-name="TSwapPool.sellPoolTokens-&gt;TSwapPool.swapExactOutput">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M222.23,-583.53C276.52,-574.74 356.19,-561.84 415.33,-552.26"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="415.7,-555.74 425.01,-550.69 414.58,-548.83 415.7,-555.74"/>
+</g>
+<!-- TSwapPool._isUnknown -->
+<g id="node13" class="node" pointer-events="visible" data-name="TSwapPool._isUnknown">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-539.44" rx="60.29" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-535.24" font-family="Times,serif" font-size="14.00">_isUnknown</text>
+</g>
+<!-- TSwapPool._swap&#45;&gt;TSwapPool._isUnknown -->
+<g id="edge37" class="edge" data-name="TSwapPool._swap-&gt;TSwapPool._isUnknown">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M932.07,-535.23C990.73,-532.35 1109.52,-531.92 1186.22,-533.93"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1185.97,-537.43 1196.07,-534.22 1186.17,-530.43 1185.97,-537.43"/>
+</g>
+<!-- TSwapPool._swap&#45;&gt;TSwapPool._isUnknown -->
+
+<!-- TSwapPool.TSwapPool__InvalidToken -->
+<g id="node30" class="node" pointer-events="visible" data-name="TSwapPool.TSwapPool__InvalidToken">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-485.44" rx="117.57" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-481.24" font-family="Times,serif" font-size="14.00">TSwapPool__InvalidToken</text>
+</g>
+<!-- TSwapPool._swap&#45;&gt;TSwapPool.TSwapPool__InvalidToken --><g id="edge38" class="edge" data-name="TSwapPool._swap-&gt;TSwapPool._isUnknown" data-comment="TSwapPool._swap-&gt;TSwapPool.TSwapPool__InvalidToken">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M932.07,-543.65C990.73,-546.53 1109.52,-546.96 1186.22,-544.95" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1186.17,-548.45 1196.07,-544.66 1185.97,-541.45 1186.17,-548.45"/>
+</g>
+<g id="edge39" class="edge" data-name="TSwapPool._swap-&gt;TSwapPool.TSwapPool__InvalidToken">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M932.22,-535.35C973.66,-530.44 1044.35,-521.7 1104.82,-512.44 1124.99,-509.35 1146.61,-505.72 1167.05,-502.15"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1167.38,-505.64 1176.62,-500.46 1166.16,-498.75 1167.38,-505.64"/>
+</g>
+<!-- TSwapPool._swap&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge41" class="edge" data-name="TSwapPool._swap-&gt;IERC20.safeTransferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M931.39,-545.27C976.6,-550.82 1055.8,-553.16 1104.82,-512.44 1144.71,-479.3 1106.53,-440.36 1140.82,-401.44 1154.61,-385.78 1173.83,-374.23 1192.69,-365.88"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1193.94,-369.15 1201.86,-362.11 1191.28,-362.68 1193.94,-369.15"/>
+</g>
+<!-- TSwapPool._swap&#45;&gt;IERC20.safeTransfer -->
+<g id="edge40" class="edge" data-name="TSwapPool._swap-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M933,-540.13C979.24,-543.81 1058.79,-546.99 1104.82,-503.44 1168.2,-443.47 1080.45,-373.45 1140.82,-310.44 1153.97,-296.7 1172.63,-289.34 1191.17,-285.95"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1191.49,-289.44 1200.92,-284.62 1190.54,-282.5 1191.49,-289.44"/>
+</g>
+<!-- TSwapPool._swap&#45;&gt;IERC20.safeTransfer -->
+
+<!-- TSwapPool.getPoolTokensToDepositBasedOnWeth&#45;&gt;IERC20.balanceOf -->
+<g id="edge43" class="edge" data-name="TSwapPool.getPoolTokensToDepositBasedOnWeth-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1055.34,-857.61C1074.04,-851.47 1091.25,-841.93 1104.82,-827.44 1191.7,-734.61 1058.59,-353.41 1140.82,-256.44 1155.37,-239.27 1178.48,-231.79 1200.31,-229.55"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1200.49,-233.05 1210.27,-228.98 1200.08,-226.06 1200.49,-233.05"/>
+</g>
+<!-- TSwapPool.getPoolTokensToDepositBasedOnWeth&#45;&gt;IERC20.balanceOf --><g id="edge42" class="edge" data-name="TSwapPool._swap-&gt;IERC20.safeTransfer" data-comment="TSwapPool.getPoolTokensToDepositBasedOnWeth-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M925.74,-550.9C970.45,-561.32 1056.28,-567.36 1104.82,-521.44 1168.2,-461.47 1080.45,-391.45 1140.82,-328.44 1153.97,-314.7 1172.63,-307.34 1191.17,-303.13" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1191.79,-306.57 1200.95,-301.25 1190.47,-299.7 1191.79,-306.57"/>
+</g>
+
+<!-- TSwapPool.totalSupply -->
+<g id="node31" class="node" pointer-events="visible" data-name="TSwapPool.totalSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1258.6" cy="-701.44" rx="55.64" ry="18"/>
+<text text-anchor="middle" x="1258.6" y="-697.24" font-family="Times,serif" font-size="14.00">totalSupply</text>
+</g>
+<!-- TSwapPool.totalLiquidityTokenSupply&#45;&gt;TSwapPool.totalSupply --><g id="edge44" class="edge" data-name="TSwapPool.getPoolTokensToDepositBasedOnWeth-&gt;IERC20.balanceOf" data-comment="TSwapPool.totalLiquidityTokenSupply-&gt;TSwapPool.totalSupply">
+
+<path fill="none" stroke="white" stroke-width="2" d="M957.94,-881.47C1005.08,-887.62 1068.24,-884.52 1104.82,-845.44 1191.7,-752.61 1058.59,-371.41 1140.82,-274.44 1154.52,-258.27 1175.81,-250.7 1196.48,-246.87" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1196.84,-250.35 1206.2,-245.38 1195.79,-243.43 1196.84,-250.35"/>
+</g>
+<g id="edge45" class="edge" data-name="TSwapPool.totalLiquidityTokenSupply-&gt;TSwapPool.totalSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1013.45,-701.44C1071.47,-701.44 1139.59,-701.44 1189.11,-701.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1188.89,-704.94 1198.89,-701.44 1188.89,-697.94 1188.89,-704.94"/>
+</g>
+<!-- TSwapPool.getPoolToken -->
+<g id="node16" class="node" pointer-events="visible" data-name="TSwapPool.getPoolToken">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="160.07" cy="-539.44" rx="65.43" ry="18"/>
+<text text-anchor="middle" x="160.07" y="-535.24" font-family="Times,serif" font-size="14.00">getPoolToken</text>
+</g>
+<!-- TSwapPool.getWeth -->
+<g id="node17" class="node" pointer-events="visible" data-name="TSwapPool.getWeth">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="160.07" cy="-485.44" rx="43.99" ry="18"/>
+<text text-anchor="middle" x="160.07" y="-481.24" font-family="Times,serif" font-size="14.00">getWeth</text>
+</g>
+<!-- TSwapPool.getMinimumWethDepositAmount -->
+<g id="node18" class="node" pointer-events="visible" data-name="TSwapPool.getMinimumWethDepositAmount">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="160.07" cy="-431.44" rx="144.15" ry="18"/>
+<text text-anchor="middle" x="160.07" y="-427.24" font-family="Times,serif" font-size="14.00">getMinimumWethDepositAmount</text>
+</g>
+<!-- TSwapPool.getPriceOfOneWethInPoolTokens -->
+<g id="node19" class="node" pointer-events="visible" data-name="TSwapPool.getPriceOfOneWethInPoolTokens">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="495.48" cy="-485.44" rx="144.1" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-481.24" font-family="Times,serif" font-size="14.00">getPriceOfOneWethInPoolTokens</text>
+</g>
+<!-- TSwapPool.getPriceOfOneWethInPoolTokens&#45;&gt;TSwapPool.getOutputAmountBasedOnInput -->
+<g id="edge46" class="edge" data-name="TSwapPool.getPriceOfOneWethInPoolTokens-&gt;TSwapPool.getOutputAmountBasedOnInput">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M594.75,-471.27C624.33,-467.07 656.89,-462.5 686.82,-458.44 716.97,-454.34 749.6,-450.05 779.87,-446.11"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="780.22,-449.6 789.69,-444.84 779.32,-442.65 780.22,-449.6"/>
+</g>
+<!-- TSwapPool.getPriceOfOneWethInPoolTokens&#45;&gt;IERC20.balanceOf -->
+<g id="edge47" class="edge" data-name="TSwapPool.getPriceOfOneWethInPoolTokens-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M611.27,-473.73C626.2,-468.63 640.02,-460.95 650.82,-449.44 701.13,-395.79 632.06,-169.54 686.82,-120.44 755.98,-58.43 1016.35,-92.12 1104.82,-120.44 1158.35,-137.58 1209.11,-181.11 1236.53,-210.44"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1233.6,-212.42 1242.88,-217.53 1238.81,-207.74 1233.6,-212.42"/>
+</g>
+<!-- TSwapPool.getPriceOfOneWethInPoolTokens&#45;&gt;IERC20.balanceOf -->
+
+<!-- TSwapPool.getPriceOfOnePoolTokenInWeth -->
+<g id="node20" class="node" pointer-events="visible" data-name="TSwapPool.getPriceOfOnePoolTokenInWeth">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="495.48" cy="-431.44" rx="140.09" ry="18"/>
+<text text-anchor="middle" x="495.48" y="-427.24" font-family="Times,serif" font-size="14.00">getPriceOfOnePoolTokenInWeth</text>
+</g>
+<!-- TSwapPool.getPriceOfOnePoolTokenInWeth&#45;&gt;TSwapPool.getOutputAmountBasedOnInput --><g id="edge48" class="edge" data-name="TSwapPool.getPriceOfOneWethInPoolTokens-&gt;IERC20.balanceOf" data-comment="TSwapPool.getPriceOfOnePoolTokenInWeth-&gt;TSwapPool.getOutputAmountBasedOnInput">
+
+<path fill="none" stroke="white" stroke-width="2" d="M635.33,-480.27C640.95,-476.65 646.17,-472.4 650.82,-467.44 701.13,-413.79 632.06,-187.54 686.82,-138.44 755.98,-76.43 1016.35,-110.12 1104.82,-138.44 1151.73,-153.46 1196.51,-188.75 1225.33,-213.28" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1222.67,-215.61 1232.53,-219.48 1227.24,-210.31 1222.67,-215.61"/>
+</g>
+<g id="edge49" class="edge" data-name="TSwapPool.getPriceOfOnePoolTokenInWeth-&gt;TSwapPool.getOutputAmountBasedOnInput">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M636.92,-431.44C671.73,-431.44 709.17,-431.44 744.44,-431.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="744.29,-434.94 754.29,-431.44 744.29,-427.94 744.29,-434.94"/>
+</g>
+<!-- TSwapPool.getPriceOfOnePoolTokenInWeth&#45;&gt;IERC20.balanceOf -->
+<g id="edge50" class="edge" data-name="TSwapPool.getPriceOfOnePoolTokenInWeth-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M499.05,-412.34C509.54,-348.45 554.98,-143.66 686.82,-64.44 846.06,31.25 934.58,9.94 1104.82,-64.44 1170.75,-93.25 1220.94,-166.1 1243.88,-208"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1240.72,-209.52 1248.46,-216.75 1246.92,-206.27 1240.72,-209.52"/>
+</g>
+<!-- TSwapPool.getPriceOfOnePoolTokenInWeth&#45;&gt;IERC20.balanceOf -->
+
+<!-- key -->
+<g id="node35" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="225.07,-1126.44 95.07,-1126.44 95.07,-1038.44 225.07,-1038.44 225.07,-1126.44"/>
+<text text-anchor="start" x="144.71" y="-1107.84" font-family="Times,serif" font-size="14.00">Internal Call</text>
+<text text-anchor="start" x="140.82" y="-1087.84" font-family="Times,serif" font-size="14.00">External Call</text>
+<text text-anchor="start" x="118.28" y="-1067.84" font-family="Times,serif" font-size="14.00">Defined Contract</text>
+<text text-anchor="start" x="104.68" y="-1047.84" font-family="Times,serif" font-size="14.00">Undefined Contract</text>
+</g>
+<!-- key2 --><g id="edge51" class="edge" data-name="TSwapPool.getPriceOfOnePoolTokenInWeth-&gt;IERC20.balanceOf" data-comment="key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M500.44,-412.32C513.2,-350.7 560.11,-158.58 686.82,-82.44 846.06,13.25 934.58,-8.06 1104.82,-82.44 1164.96,-108.72 1212,-171.63 1237.21,-209.19" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1234.22,-211.02 1242.65,-217.44 1240.06,-207.16 1234.22,-211.02"/>
+</g>
+<g id="node36" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="522.48,-1126.44 468.48,-1126.44 468.48,-1038.44 522.48,-1038.44 522.48,-1126.44"/>
+<text text-anchor="start" x="485.48" y="-1107.84" font-family="Times,serif" font-size="14.00">   </text>
+<text text-anchor="start" x="485.48" y="-1087.84" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="#445773" stroke="none" points="483.48,-1062.44 483.48,-1082.44 508.48,-1082.44 508.48,-1062.44 483.48,-1062.44"/>
+<text text-anchor="start" x="485.48" y="-1067.84" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="none" stroke="#e8726d" points="485.48,-1044.44 485.48,-1060.44 506.48,-1060.44 506.48,-1044.44 485.48,-1044.44"/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge52" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M218.07,-1112.44C331.23,-1112.44 362.67,-1112.44 469.75,-1112.44"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="469.46,-1115.94 479.46,-1112.44 469.46,-1108.94 469.46,-1115.94"/>
+</g>
+
+<!-- key&#45;&gt;key2 -->
+
+
+<g id="edge53" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M218.07,-1092.44C331.23,-1092.44 362.67,-1092.44 469.75,-1092.44" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="469.46,-1095.94 479.46,-1092.44 469.46,-1088.94 469.46,-1095.94"/>
+</g>
+</g>
+</svg>

@@ -12,5 +12,9 @@ docs/
 
 # Dotenv file
 .env
-.notes.md
-broadcast/
+.DS_Store
+
+broadcast
+
+audit-data/logo.pdf
+audit-data/logo.png

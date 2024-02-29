@@ -12,14 +12,14 @@
  * \-/|\-/|\-/|\-/|\-/|\-/|\-/|\-/|\-/|\-/
  */
 // SPDX-License-Identifier: GNU General Public License v3.0
-pragma solidity 0.8.20;
+pragma solidity 0.8.20; // @audit PUSH0 checkup
 
 import { TSwapPool } from "./TSwapPool.sol";
 import { IERC20 } from "forge-std/interfaces/IERC20.sol";
 
 contract PoolFactory {
     error PoolFactory__PoolAlreadyExists(address tokenAddress);
-    error PoolFactory__PoolDoesNotExist(address tokenAddress);
+    error PoolFactory__PoolDoesNotExist(address tokenAddress); // @audit this error is not used
 
     /*//////////////////////////////////////////////////////////////
                             STATE VARIABLES
@@ -32,12 +32,14 @@ contract PoolFactory {
     /*//////////////////////////////////////////////////////////////
                                  EVENTS
     //////////////////////////////////////////////////////////////*/
+    // @audit indexed
     event PoolCreated(address tokenAddress, address poolAddress);
 
     /*//////////////////////////////////////////////////////////////
                                FUNCTIONS
     //////////////////////////////////////////////////////////////*/
     constructor(address wethToken) {
+        // @audit zero check missing
         i_wethToken = wethToken;
     }
 
@@ -48,8 +50,11 @@ contract PoolFactory {
         if (s_pools[tokenAddress] != address(0)) {
             revert PoolFactory__PoolAlreadyExists(tokenAddress);
         }
+
+        // @audit question weird ERC20 token name and symbols can work ?
         string memory liquidityTokenName = string.concat("T-Swap ", IERC20(tokenAddress).name());
-        string memory liquidityTokenSymbol = string.concat("ts", IERC20(tokenAddress).name());
+        string memory liquidityTokenSymbol = string.concat("ts", IERC20(tokenAddress).name()); // @audit should be
+        // .symbol()
         TSwapPool tPool = new TSwapPool(tokenAddress, i_wethToken, liquidityTokenName, liquidityTokenSymbol);
         s_pools[tokenAddress] = address(tPool);
         s_tokens[address(tPool)] = tokenAddress;
